@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="main-container">
+    <div class="right-container">
+      <h1>Stay updated!</h1>
+      <p>  Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+        <li class="list-item"><img class="icon" src="./assets/images/icon-success.svg" alt="checkmark">Product discovery and building what matters</li>
+        <li class="list-item"><img class="icon" src="./assets/images/icon-success.svg" alt="checkmark">Measuring to ensure updates are a success</li>
+        <li class="list-item"><img class="icon" src="./assets/images/icon-success.svg" alt="checkmark">And much more!</li>
+      </ul>
+
+      <form id="form" action="/" method="GET">
+        <span id="error"></span>
+        <label for="email">Email address </label> 
+        <input type="text" id="email" name="email" placeholder="email@company.com">
+        <button type="submit">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+
+    <div class="left-container">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+    </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+</html>
