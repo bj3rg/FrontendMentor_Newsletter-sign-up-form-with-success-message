@@ -1,11 +1,10 @@
-# FrontendMentor_Newsletter-sign-up-form-with-success-message
 
 # Frontend Mentor - Newsletter sign-up form with success message solution
 
 # # Links
 
 Solution URL: 
-Live Site URL: 
+Live Site URL: https://bj3rg.github.io/FrontendMentor_Newsletter-sign-up-form-with-success-message/
 
 # # Built with
 - HTML5
