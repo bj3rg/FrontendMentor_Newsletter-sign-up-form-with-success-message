@@ -3,7 +3,8 @@
 
 # # Links
 
-Solution URL: 
+Solution URL: https://github.com/bj3rg/FrontendMentor_Newsletter-sign-up-form-with-success-message
+
 Live Site URL: https://bj3rg.github.io/FrontendMentor_Newsletter-sign-up-form-with-success-message/
 
 # # Built with
